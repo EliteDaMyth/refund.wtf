@@ -1,1 +1,3 @@
 # refund.wtf
+
+![](https://codimg.vercel.app/api/image?language=javascript&theme=a11y-dark&code=const%20languages%20%3D%20%5B%22c%22%2C%22css%22%2C%22cpp%22%2C%22go%22%2C%22html%22%2C%22java%22%2C%22javascript%22%2C%22python%22%2C%22rust%22%2C%22typescript%22%5D%3B%0A%0Amodule.exports%20%3D%20%28request%2C%20response%29%20%3D%3E%20%7B%0A%20%20%20%20console.log%28%27%27%29%3B%0A%20%20%20%20console.log%28%27%F0%9F%8E%89%20%27%2C%20request.url%29%3B%0A%20%20%20%20response.setHeader%28%27Access-Control-Allow-Origin%27%2C%20%27%2A%27%29%3B%0A%20%20%20%20response.json%28%7B%0A%20%20%20%20%20%20%20%20languages%0A%20%20%20%20%7D%29%3B%0A%7D)
